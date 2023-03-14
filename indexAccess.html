@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      background: hsl(212, 45%, 89%);
+      height: 100vh;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    }
+
+    img {
+      border-radius: 10px;
+      width: 288px;
+    }
+
+    .card {
+      width: 318px;
+      padding: 1em;
+      border: 1px solid white;
+      border-radius: 10px;
+      background: white;
+      text-align: center;
+    }
+
+    .text {
+      padding-top: 1em;
+    }
+
+    .instructions {
+      color: hsl(220, 15%, 55%);
+      width: 265px;
+      margin: 0px 10px;
+    }
+
+    .attribution {
+      font-size: 11px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="qrCode">
+      <img src="images/image-qr-code.png" alt="QR code">
+    </div>
+    <h2 class="text title">
+      Improve your front-end
+      skills by building projects
+    </h2>
+    <p class="text instructions">
+      Scan the QR code to visit Frontend
+      Mentor and take your coding skills to
+      the next level
+    </p>
+
+    <div class="text attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Osvaldo M</a>.
+    </div>
+  </div>
+</body>
+
+</html>
